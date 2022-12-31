@@ -1,2 +1,3 @@
 
-Structure of readme
+  ## License
+  Licensed under the [None](/LICENSE) license.
