@@ -3,10 +3,10 @@
 const generateMarkdown = userInput => {
   return`
   
-  ## ${userInput.title}
+  ## **${userInput.title}**
   ![license](https://img.shields.io/github/license/${userInput.github_username}/${userInput.title}?color=green&style=for-the-badge)
-  ## ${userInput.description}
-  ## Table of Contents
+  ## _${userInput.description}_
+  ## **Table of Contents**
 
   - [Installation](#installation)
   - [Usage](#usage)
@@ -14,12 +14,27 @@ const generateMarkdown = userInput => {
   - [Questions](#questions)
   - [Tests](#tests)
   - [License](#license)
-  ## Installation
-  ## Usage
-  ## Contributing
-  ## Questions
-  ## Tests
-  ## License
+  ## **Installation**
+
+  ${userInput.installation}
+
+  ## **Usage**
+
+  ${userInput.usage}
+
+  ## **Contributing**
+  To contribute to the ${userInput.title} project, please see information below:
+  ${userInput.contributing}
+
+  ## **Questions**
+  Further questions or comments can be directed to the email contact below:
+  ${userInput.questions}
+
+  ## **Tests**
+
+  ${userInput.tests}
+
+  ## **License**
   Licensed under the [${userInput.license}](/LICENSE) license.
 `
 }
