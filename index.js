@@ -8,7 +8,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./src/utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-// title, description, Table of Contents, Installation, Usage, 
+// Installation, Usage 
 // License, Contributing, Tests, and Questions.
 inquirer 
     .prompt([
@@ -16,6 +16,11 @@ inquirer
     type: "input",
     message: "Enter the GitHub Project Title: ",
     name: "title",
+},
+{
+    type: "input",
+    message: "Enter your GitHub username: ",
+    name: "github_username",
 },
 {
     type: "input",
