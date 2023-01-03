@@ -31,6 +31,8 @@ On a Mac, while in your project install
 
 `$node index.js`
 
+![demo image](/src/assets/images/demo-readme-generator.png)
+
 ## Usage
 TODO
 
