@@ -17,6 +17,7 @@ On a Mac, while in your project install
 - `node` Node.js version 16
 - `npm`  Node Package Manager
 
+## Usage
 **Project setup**
 - Clone down this repository locally
 `git clone git@github.com:westgards/readme-generator.git`
@@ -33,17 +34,14 @@ On a Mac, while in your project install
 
 ![demo image](/src/assets/images/demo-readme-generator.png)
 
-## Usage
-TODO
 
 DEMO
-Follow the [demo video link here]() to watch the readme-generator CLI in action.
+The demo link is only available in the bootcamp canvas portal, to watch the readme-generator CLI in action please see submission.
 
 ## Features
-TODO
-
-## Tests 
-TODO
+- CLI Tool to generate a high quality README file
+- Customizable HTML template for more features
+- Badge for licensing at the top
 
 ## Credits
 
